@@ -1,45 +1,350 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="contactsApp">
-  <head>
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Angular lib -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-route.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- Create some padding for body -->
-    <style>
-      body {
-        min-height: 2000px;
-        padding-top: 70px;
-      }
-    </style>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <script src="/js/app.js"></script>
-  </head>
+    <title>Xinhe Ren</title>
 
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand" href="#/">mLab Contact List</div>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway|Lato|Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/elevator.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Xinhe Ren
+</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">Home</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
-    <!-- Dynamically render templates -->
-    <div class="container" ng-view>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 style="font-size: 65px;">Xinhe (Jim) Ren</h1>
+                <hr class="light">
+                <p>Hello!
+                    <br> My name is Jim, a second year undergraduate studying Electrical Engineering and Computer Science at University of California, Berkeley.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Greetings, Pepes!</h2>
+                    <hr class="light">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img id="prof-pic" src="img/rsz_me.jpg" alt="Xinhe Ren">
+                        </div>
+                        <div class="col-lg-6">
+                            <p id="about-text" class="text-faded">
+                                Your time is up<br>
+                                My time is now<br>
+                                You cant see me<br>
+                                My time is now<br>
+                                Its the franchise, boy im shin' now<br>
+                                You cant see me<br>
+                                My time is now<br>
+                            </p>
+                        </div>
+                    </div>
+                    <a target="_blank" href="https://www.dropbox.com/s/3zj5g0iykv9a651/Xinhe_Ren_Resume.pdf?dl=0" class="btn btn-default btn-xl">RÉsumÉ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary" style="visibility: hidden; -webkit-animation: none;"></i>
+                        <h3>Sturdy Templates</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: hidden; -webkit-animation: none 0.1s 0.1s;"></i>
+                        <h3>Ready to Ship</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s" style="visibility: hidden; -webkit-animation: none 0.2s 0.2s;"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s" style="visibility: hidden; -webkit-animation: none 0.3s 0.3s;"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://medium.com/hackmit-stories/hackmit-2015-winners-35fff2e4d8c3#.2iknkk4hv" class="portfolio-box">
+                        <img src="img/portfolio/TinderPlus.jpg" class="img-responsive" alt="Tinder+">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    AI / Machine Learning
+                                </div>
+                                <div class="project-name">
+                                    Tinder+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://devpost.com/software/smartv" class="portfolio-box">
+                        <img src="img/portfolio/SmarTV.jpg" class="img-responsive" alt="SmarTV">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Internet of Things (IoT)
+                                </div>
+                                <div class="project-name">
+                                    SmarTV
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://devpost.com/software/arcode" class="portfolio-box">
+                        <img src="img/portfolio/ARcode.jpg" class="img-responsive" alt="ARcode">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Signal Processing
+                                </div>
+                                <div class="project-name">
+                                    ARcode
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://devpost.com/software/mindchat" class="portfolio-box">
+                        <img src="img/portfolio/MindChat.jpg" class="img-responsive" alt="MindChat">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    EEG / Augmented Reality
+                                </div>
+                                <div class="project-name">
+                                    MindChat
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Follow me on GitHub!</h2>
+<!--                <a href="#" class="btn btn-default btn-xl wow tada" style="visibility: hidden; -webkit-animation: none;">GitHub</a>-->
+                    <a class="github-button" href="https://github.com/renxinhe" data-style="mega" data-count-href="/renxinhe/followers" data-count-api="/users/renxinhe#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @renxinhe on GitHub">Visit @renxinhe</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>If you have any questions about any of my projects, please feel free to reach out to me!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn" style="visibility: hidden; -webkit-animation: none;"></i>
+                    <p>832-866-8032</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: hidden; -webkit-animation: none 0.1s 0.1s;"></i>
+                    <p><a href="mailto:jim.x.ren@gmail.com">jim.x.ren@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 text-center">
+                    <a class="btn btn-info" href="#">
+                        <i class="fa fa-code"></i> Devpost</a>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a class="btn btn-info" href="#">
+                        <i class="fa fa-github-alt"></i> GitHub</a>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a class="btn btn-info" href="#">
+                        <i class="fa fa-linkedin"></i> LinkedIn</a>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a class="btn btn-info" href="#">
+                        <i class="fa fa-steam-square"></i> Steam</a>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a class="btn btn-info" href="#">
+                        <i class="fa fa-twitch"></i> Twitch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="elevator-footer">
+        <div class="elevator">
+            <svg class="sweet-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" height="100px" width="100px">
+                <path d="M70,47.5H30c-1.4,0-2.5,1.1-2.5,2.5v40c0,1.4,1.1,2.5,2.5,2.5h40c1.4,0,2.5-1.1,2.5-2.5V50C72.5,48.6,71.4,47.5,70,47.5z   M47.5,87.5h-5v-25h5V87.5z M57.5,87.5h-5v-25h5V87.5z M67.5,87.5h-5V60c0-1.4-1.1-2.5-2.5-2.5H40c-1.4,0-2.5,1.1-2.5,2.5v27.5h-5  v-35h35V87.5z"></path>
+                <path d="M50,42.5c1.4,0,2.5-1.1,2.5-2.5V16l5.7,5.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5l-10-10  c-1-1-2.6-1-3.5,0l-10,10c-1,1-1,2.6,0,3.5c1,1,2.6,1,3.5,0l5.7-5.7v24C47.5,41.4,48.6,42.5,50,42.5z"></path>
+            </svg>
+            Back to Top
+        </div>
     </div>
-  </body>
-</html>
+
+    <script>
+        window.onload = function() {
+            // Elevator script included on the page, already.
+            var elementButton = document.querySelector('.elevator');
+            var elevator = new Elevator({
+                element: elementButton,
+                mainAudio: './music/elevator.mp3', // Music from http://www.bensound.com/
+                endAudio: './music/ding.mp3'
+            });
+        }
+    </script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+    <!-- elevator.js -->
+    <script src="js/elevator.min.js"></script>
+
+    <!-- GitHub Button -->
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+</body>
