@@ -41,3 +41,7 @@ app.post("/fizzbuzz", function (req, res, next) {
     }
     next();
 });
+
+app.get("/fizzbuzz", function(req, res) {
+   res.status(200).send("Try send a POST request.\ne.g. {\"number\": 3}");
+});
