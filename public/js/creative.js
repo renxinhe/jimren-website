@@ -44,5 +44,10 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
+    
+    // Loading gif
+    $(window).load(function () {
+        $(".loader").fadeOut("slow");
+    })
 
 })(jQuery); // End of use strict
