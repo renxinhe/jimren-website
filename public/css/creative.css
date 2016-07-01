@@ -232,7 +232,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
@@ -256,7 +256,7 @@ header .header-content .header-content-inner p {
         display: inline-block;
         margin-right: auto;
         margin-left: auto;
-        width: 700px;
+        width: 800px;
     }
     header .header-content .header-content-inner p {
         margin-right: auto;
