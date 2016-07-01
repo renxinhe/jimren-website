@@ -36,11 +36,11 @@
 
 <body id="page-top">
 
-	<div class="loader-container">
+    <div class="loader-container">
         <!-- Adapted from https://codepen.io/a-guerrero/pen/XbyPEj -->
         <div class="loader">
-          <div class="loader__figure"></div>
-          <p class="loader__label">jr</p>
+            <div class="loader__figure"></div>
+            <p class="loader__label">jr</p>
         </div>
     </div>
 
@@ -110,9 +110,10 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <p id="about-text" class="text-faded text-justify">
-                                My name is Jim. I'm a third year undergrad at <strong>UC Berkeley.</strong><br/>
-                                I study electrical engineering and computer science with a focus on software engineering.<br/><br/>
-                                I have 6 years of Java, and 3 years of Python and C experience. As a full stack developer, I'm particularly interested in machine learning, data science, and embedded systems.
+                                My name is Jim. I'm a third year undergrad at <strong>UC Berkeley.</strong>
+                                <br/> I study electrical engineering and computer science with a focus on software engineering.
+                                <br/>
+                                <br/> I have 6 years of Java, and 3 years of Python and C experience. As a full stack developer, I'm particularly interested in machine learning, data science, and embedded systems.
                             </p>
                         </div>
                     </div>
@@ -340,14 +341,14 @@
         </div>
     </div>
 
+    <!-- Elevator.js -->
     <script>
         window.onload = function () {
             // Elevator script included on the page, already.
             var elementButton = document.querySelector('.elevator');
             var elevator = new Elevator({
                 element: elementButton
-                , mainAudio: './music/elevator.mp3', // Music from http://www.bensound.com/
-                endAudio: './music/ding.mp3'
+                , duration: 1000 // milliseconds
             });
         }
     </script>
