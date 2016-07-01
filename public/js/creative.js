@@ -4,6 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+$(window).load(function () {
+
+    // Remove blocking loader
+    $('.loader__figure, .loader__label').hide();
+    $('.loader-container').css('opacity', 0);   // Fade out blocker
+    setTimeout(function () {
+        $('.loader-container').css('display', 'none'); // Remove blocker
+    }, 1000);
+    $('body').css('overflow', 'auto');  // Re-enable scroll
+
+});
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -31,7 +43,7 @@
     $("h1").fitText(
         1.2, {
             minFontSize: '35px',
-            maxFontSize: '65px'
+            maxFontSize: '70px'
         }
     );
 
