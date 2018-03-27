@@ -7,6 +7,7 @@ var upload = multer(); // for parsing multipart/form-data
 var app = express();
 app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public"));
+app.use(express.static('static'));
 
 // Initialize the app.
 var server = app.listen(process.env.PORT || 8080, function () {
@@ -43,5 +44,5 @@ app.post("/fizzbuzz", function (req, res, next) {
 });
 
 app.get("/fizzbuzz", function(req, res) {
-   res.status(200).send("Try send a POST request.\ne.g. {\"number\": 3}");
+    res.status(200).send("Try send a POST request.\ne.g. {\"number\": 3}");
 });
